@@ -10,10 +10,10 @@ scanf("%d",&a);
 printf("Input the Second number: "); /*вводится второе число*/
 scanf("%d",&b);
 
-	printf ("Diffirent scalar system for first number: "); /*Первое число в 8, 16, 10 сис-мах*/
+	printf ("Diffirent scalar system for the first number: "); /*Первое число в 8, 16, 10 сис-мах*/
  	printf("%o %X %d \n", a,a,a);
 
-printf ("Diffirent scalar system for second number: "); /*Второе число в 8, 16, 10 сис-мах*/
+printf ("Diffirent scalar system for the second number: "); /*Второе число в 8, 16, 10 сис-мах*/
  	printf("%o %X %d \n",b,b,b);
 
 if (a>=b) /*Максимальное число*/
@@ -60,10 +60,15 @@ printf("%x * %x = %x\n", a, b, a * b);
 printf("%x / %x = %x\n", a, b, a/b);
 printf ("\n");
 
-	printf("Logicheskie operacii: \n");
+	printf("Logicheskie operacii: \n"); /*Логические операции*/
+printf("%d && %d = %d\n", a, b, a && b);
+printf("%d || %d = %d\n", a, b, a || b);
+
+printf ("\n");
+
+	printf("Pobitovie operacii:\n"); /*Побитовые операции*/
 printf("%d & %d = %d\n", a, b, a & b);
 printf("%d | %d = %d\n", a, b, a | b);
-printf("%d ^ %d = %d\n", a, b, a ^ b);
 printf ("\n");
 
 	printf("Sdvig:\n"); 
