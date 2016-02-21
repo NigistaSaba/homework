@@ -14,7 +14,7 @@ int main (void)
 	{
 	int a, b; 
 	printf("Input two numbers: \n");
-	scanf ("%d %d", &a, &b);
+	scanf("%d %d", &a, &b);
 	
 	int gcd = greatestCommonDivisor(a, b); 
   	printf("The GCD of %d and %d is %d\n", a, b, gcd);

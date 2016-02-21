@@ -15,14 +15,14 @@ int *bubble_sort (int A[], int n)
 }
 int main (void)
 	
-	{
+{
 	int n;
 	printf("Input the number of elements: ");
-	scanf ("%d", &n);
+	scanf("%d", &n);
 	
 	int i;
 	int A [100];
-	printf ("Enter %d elements: \n", n);
+	printf("Enter %d elements: \n", n);
 
 	for (i = 0; i < n;  i++)
 		scanf("%d",&A[i]);
@@ -32,6 +32,6 @@ int main (void)
 	printf("After sorting: ");
  	for (i =0; i < n; i++)
 		printf(" %d", bubble [i]);
-	printf ("\n");
-	return (0);
-	}
+	printf("\n");
+	return(0);
+}
